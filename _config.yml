@@ -112,3 +112,5 @@ nav_item:
   - { url: '/stuff', text: 'Other stuff' }
   - { url: '/about', text: 'About me' }
   - { url: '/list100', text: 'List 100' }
+  - { url: '/vimrc', text: '.vimrc' }
+  - { url: 'https://advancedcomputervision.github.io/', text: 'Computer Vision Meetup' }

@@ -1,14 +1,14 @@
 ---
 
 layout: inner
-title: List 100
-permalink: /list100/
+title: nvim config
+permalink: /vimrc/
 
 ---
 
-# List 100
+# Vim / Neovim Configuration file
 
-Here is the list of 100 things (or 17 so far) I want to do before I die. (the order does not mean anything)
+I think that if my hands get away from the keyboard (e.g. to reach the mouse) is a waste of time, that is why I like vim. Moreover, I would love to be able to navigate everything using some sort of vim interface, nvim has the goal of make any text input in the web be compatible with vim commands, that is why I like nvim.
 
 <hr/>
 1. &#x2714; Teach at my university
