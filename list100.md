@@ -14,7 +14,7 @@ Here is the list of 100 things (or 17 so far) I want to do before I die. (the or
 1. &#x2714; Teach at my university
 2. &#x2714; Work for a politician that I admire
 3. &#x2718; Teach an advanced course in a University as a part-time professor
-4. &#x2718; Teach to high scholers 
+4. &#x2718; Teach to high schoolers 
 5. &#x2718; Teach in my high-school
 6. &#x2718; Skydive
 7. &#x2718; Have a PhD
@@ -28,6 +28,8 @@ Here is the list of 100 things (or 17 so far) I want to do before I die. (the or
 15. &#x2718; Run a marathon 
 16. &#x2718; Run a half marathon
 17. &#x2718; Swim in the ocean
+18. &#x2718; Take a cruise
+19. &#x2718; Airbnb in a river boat house
 
 <hr/>
 
