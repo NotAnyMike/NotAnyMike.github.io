@@ -16,7 +16,7 @@ Here is the list of 100 things (or 17 so far) I want to do before I die. (the or
 3. &#x2718; Teach an advanced course in a University as a part-time professor
 4. &#x2718; Teach to high schoolers 
 5. &#x2718; Teach in my high-school
-6. &#x2718; Skydive
+6. &#x2714; Skydive
 7. &#x2718; Have a PhD
 8. &#x2718; Have an Honris Causa
 9. &#x2718; Live in NYC
