@@ -82,6 +82,11 @@ syntax enable
 set background=light
 colorscheme solarized
 
+" Remap shell to bash and exit keys
+tnoremap <Esc> <C-\><C-n>
+set shell=/bin/bash
+
+
 ```
 
 
