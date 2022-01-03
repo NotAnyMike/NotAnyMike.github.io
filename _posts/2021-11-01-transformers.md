@@ -22,9 +22,9 @@ Under development ...
 
 This is a quick implementation of transformers that a friend of mine (link) and me made from zero with no guidance from the paper just to practice and understand better transformers. This is our own explanaition of transformers, therefore the notation and order of variables maybe change a bit. 
 
-The code can be found in the following link
+The code can be found in the following link [github.com/NotAnyMike/transformer](https://github.com/NotAnyMike/transformer)
 
-[LINK](https://colab.research.google.com/drive/1YelwLtfqP-fm-v77LZ7-5HIPzFUXu0H1) <!-- TODO Pass it to git gist -->
+<!-- [LINK](https://colab.research.google.com/drive/1YelwLtfqP-fm-v77LZ7-5HIPzFUXu0H1)  TODO Pass it to git gist -->
 
 
 
@@ -42,12 +42,12 @@ Let's assume we have an input of $$n$$ elements of length $$l$$
 
 
 $$
- Q = V = K = \{q_{i,j}\} \in \mathbb R^{l\times n}
+Q = V = K = \{q_{i,j}\} \in \mathbb R^{n \times l}
 $$
 
 
 $$
-Q^T  V =  S \in \mathbb R^{n \times n}
+Q V^T =  S \in \mathbb R^{n \times n}
 $$
 
 $$ S = \{s_{i,j}\}$$ is basically the similarity matrix of the elements (how similar element $$i$$ is to element $$j$$). The more similar the higher their multiplication will be and viceversa. 
@@ -64,11 +64,7 @@ $$
 
 
 
-It is just a way of measuring how alike are two vectors.
-
-
-
-Let's assume the variance of $$ Q$$ is $$\sigma$$
+It is just a way of measuring how alike two vectors are.
 
 
 
