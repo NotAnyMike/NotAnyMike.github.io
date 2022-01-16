@@ -8,6 +8,7 @@ tags: Transformers Self-attention Math
 featured_image: '/img/posts/transformer/att.png'
 comments: false
 lead_text: 'A quick exercise of coding a classic transformer from zero to get a full understanding of the logic behind it'
+external_link: https://advancedcomputervision.github.io/misc/2021/12/20/transformers.html
 
 
 ---
@@ -50,6 +51,7 @@ $$
 $$
 Q V^T =  S \in \mathbb R^{n \times n}
 $$
+
 
 $$ S = \{s_{i,j}\}$$ is basically the similarity matrix of the elements (how similar element $$i$$ is to element $$j$$). The more similar the higher their multiplication will be and vice-versa. 
 
@@ -98,6 +100,7 @@ $$
 \text{softmax}\left(\frac{ S}{\sqrt l} \right)^TV
 $$
 
+
 ### Masking the future out
 
 Sometimes when working with a sequence of values, it is important to avoid passing information about the future (because during inference the model will not have future information or because we want to estimate the next value). Given that $$ Q,  V,  K$$ includes all the sequences (all of the $$n$$ vectors).
@@ -118,11 +121,14 @@ M = \{m_{i,j}\} \in \mathbb R^{n\times n} = \left(
 \right)
 $$
 
+
 Including the mask into the attention equation we have
+
 
 $$
 A = \text{softmax}\left(M\frac{ S}{\sqrt l} \right)^TV
 $$
+
 
 Therefore because $$A$$ is just the same input but weighted differently we get that $$Q,V,K,A \in \mathbb R^{l\times n}$$
 

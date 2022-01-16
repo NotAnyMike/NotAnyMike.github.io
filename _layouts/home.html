@@ -18,10 +18,14 @@
 
             {% for post in site.posts %}
 	      {% if post.type != "hidden" %}
-	      <a href="{{ post.url | prepend: site.baseurl }}">
+                {% if post.external_link %}
+                <a href="{{ post.external_link }}" target="_black">
+                {% else %}
+                  <a href="{{ post.url | prepend: site.baseurl }}">
+                {% endif %}
                 <div class="wow fadeIn">
-		{% assign mod = forloop.index | modulo:2 %}
-		{% if mod == 0 %}
+                {% assign mod = forloop.index | modulo:2 %}
+                {% if mod == 0 %}
                   {% include content-left.html %}
                 {% endif %}
   
@@ -29,7 +33,7 @@
                   {% include content-right.html %}
                 {% endif %}
               </div>
-	      </a>
+              </a>
 	      {% endif %}
             {% endfor %}
 
