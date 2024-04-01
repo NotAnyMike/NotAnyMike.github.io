@@ -30,6 +30,10 @@ Here is the list of 100 things (or 17 so far) I want to do before I die. (the or
 17. &#x2718; Swim in the ocean
 18. &#x2718; Take a cruise
 19. &#x2718; Airbnb in a river boat house
+20. &#x2718; Listening ballenato in a small hot-weather town
+21. &#x2718; Being behind the scenes of a series or movie with a lot of special effects
+21. &#x2718; Voluteer to get tased
+22. &#x2718; Visit main libraries of Berlin
 
 <hr/>
 
