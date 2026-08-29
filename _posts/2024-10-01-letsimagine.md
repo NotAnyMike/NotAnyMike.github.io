@@ -7,6 +7,7 @@ type: project
 tags: GenAI Diffusion stablediffusion Flex Midjourney Photos
 featured_image: '/img/posts/letsimagineme/me.jpeg'
 comments: true
+published: false  # hidden for now
 lead_text: 'Are these pictures real? Is it ok to use AI for your next passport picture? for your linkedin? In a world where AI blurs the line between real and artificial, can you distinguish between genuine and AI-generated images? Does it even matter?'
 project_link: 'https://letsimagine.me'
 button_icon: 'home fas fa-home'
